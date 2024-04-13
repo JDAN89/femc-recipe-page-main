@@ -1,3 +1,13 @@
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 0 20px;
+  border: solid 1px red;
+}
 
+body {
+  background-color: hsl(30, 54%, 90%);
+  font-family: "outfit";
+}
 
 /*# sourceMappingURL=styles.css.map */
