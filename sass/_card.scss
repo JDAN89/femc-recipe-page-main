@@ -5,4 +5,34 @@
     border-radius: 20px;
     padding: 34px;
     margin-block: 100px;
+
+    .card-title {
+        font-family: "young serif";
+        font-size: 45px;
+    }
+
+    .card-description {
+        line-height: 30px;
+        padding-bottom: 10px;
+        font-size: 18px;
+    }
+
+    .card-image {
+        border-radius: 15px;
+        width: 100%;
+        max-width: 100%;
+        overflow: hidden;
+        height: 340px;
+        object-fit: cover;
+    }
+
+    .card-prep_time {
+        background-color: $primary-featured;
+        line-height: 30px;
+        padding: 10px;
+        border-radius: 15px;
+
+    }
+
+
 }

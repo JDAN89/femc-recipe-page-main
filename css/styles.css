@@ -5,9 +5,64 @@
   border: solid 1px red;
 }
 
+.section-padding {
+  padding-block: 30px;
+}
+
 body {
   background-color: hsl(30, 54%, 90%);
   font-family: "outfit";
+}
+
+.card {
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 20px;
+  padding: 34px;
+  margin-block: 100px;
+}
+.card .card-title {
+  font-family: "young serif";
+  font-size: 45px;
+}
+.card .card-description {
+  line-height: 30px;
+  padding-bottom: 10px;
+  font-size: 18px;
+}
+.card .card-image {
+  border-radius: 15px;
+  width: 100%;
+  max-width: 100%;
+  overflow: hidden;
+  height: 340px;
+  object-fit: cover;
+}
+.card .card-prep_time {
+  background-color: hsl(330, 100%, 98%);
+  line-height: 30px;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.font-bold {
+  font-weight: 700;
+  padding-left: 20px;
+}
+
+.title-primary {
+  color: hsl(14, 45%, 36%);
+}
+
+.section-title-featured {
+  padding-left: 30px;
+  color: hsl(332, 51%, 32%);
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.section-title {
+  color: hsl(14, 45%, 36%);
+  font-family: "young serif";
 }
 
 /*# sourceMappingURL=styles.css.map */
